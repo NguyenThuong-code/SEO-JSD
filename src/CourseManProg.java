@@ -71,6 +71,7 @@ public class CourseManProg {
                 }
                 case "2": {
                     em.sort();
+                    em.report();
                     break;
                 }
                 case "3": {
